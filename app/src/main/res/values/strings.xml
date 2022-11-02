@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Second Hand App</string>
+    <string name="login">Login</string>
+    <string name="pn_hint">phone number*</string>
+    <string name="email_hint">email*</string>
+    <string name="pw_hint">password</string>
+    <string name="log_in_btn">log in</string>
+    <string name="sign_up_btn">sign up</string>
+    <string name="registration">Sign up</string>
+    <string name="un_hint">username</string>
+    <string name="cpw_hint">confirm password</string>
+    <string name="register_indic">*input at least one contact info</string>
+    <string name="network_error">A problem occurred with the server or the network !</string>
+    <string name="empty_fields_error">At least one required field is empty !</string>
+    <string name="short_username_error">Usernames should have at least two characters!</string>
+    <string name="same_username_error">The username already exists!</string>
+    <string name="short_password_error">The password should have least 8 characters!</string>
+    <string name="different_password_error">The passwords are different!</string>
+    <string name="location_error">An problem occurred when locating you!</string>
+    <string name="phone_number_error">The phone number is in the wrong format!</string>
+    <string name="email_error">The email is in the wrong format!</string>
+    <string name="explain_need">The permission to locate you is required to show nearby items and to create your account</string>
+    <string name="turned_off_permission">You\'ve turned off the permission</string>
+    <string name="settings">settings</string>
+    <string name="turn_on_gps">Please turn on your gps</string>
+    <string name="gps_error">An error occurred when locating you</string>
+    <string name="turn_on">turn on</string>
+    <string name="success_registration">You successfully created an account</string>
+    <string name="not_valid_credentials">The provided credentials are not valid</string>
+    <string name="profile">Profile</string>
+    <string name="add_item">Add an Item</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="search_by_distance" translatable="false">Distance(KM)</string>
+    <string name="select_photo">select</string>
+    <string name="photo" translatable="false"><b>Photo :</b></string>
+    <string name="take_picture">Take a picture</string>
+    <string name="select_picture">Select a picture</string>
+    <string name="price_hint">price</string>
+    <string name="price"><b>Price :</b></string>
+    <string name="name"><b>Name :</b></string>
+    <string name="name_hint">name</string>
+    <string name="description" translatable="false"><b>Description :</b></string>
+    <string name="description_hint" translatable="false">description</string>
+    <string name="choose_picture">Choose a picture</string>
+    <string name="error_camera">Camera not supported</string>
+    <string name="error_session">You are no longer connected</string>
+    <string name="name_error">The name of the item is too short</string>
+    <string name="price_error">The price is not in the correct format</string>
+    <string name="desc_error">The description should be at least 10 characters</string>
+    <string name="need_camera">App need the permission to take pictures</string>
+    <string name="need_pictures">Turn on the permission to choose picture</string>
+    <string name="success_sale">Your item has been posted</string>
+    <string name="category"><b>Category :</b></string>
+    <string name="category_hint">category</string>
+    <string name="error_category">This category is not valid, you can choose one in the wizard or write one that is valid</string>
+    <string name="category_title">Category</string>
+    <string name="wizard" translatable="false">wizard</string>
+    <string name="network_error2">A problem occurred with the network when refreshing the list of items!</string>
+    <string name="wrong_distance_format">The distance should be numeric</string>
+    <string name="error_no_item">There is no items at this distance</string>
+    <string name="distance_format_error">The distance format is not correct</string>
+    <string name="infos" translatable="false"><b>Infos :</b></string>
+    <string name="distance" translatable="false"><b>Distance :</b></string>
+    <string name="pseudo" translatable="false"><b>Pseudo :</b></string>
+    <string name="wishlist_add"><b>Add to wishlist</b></string>
+    <string name="contact" translatable="false"><b>Contact :</b></string>
+    <string name="email" translatable="false">Email :</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="error_no_item2">You have no item to sale</string>
+    <string name="username_label"><b>Username :</b></string>
+    <string name="my_items"><b>My Items :</b></string>
+    <string name="error_no_item3">You have no item in your wishlist</string>
+    <string name="item">Item page</string>
+    <string name="wishlist_remove">remove from wishlist</string>
+    <string name="delete_item">Delete Item</string>
+
+</resources>

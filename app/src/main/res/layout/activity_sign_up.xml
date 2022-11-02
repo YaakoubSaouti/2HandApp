@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/registration"
+            style="@style/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/username_registration"
+            android:hint="@string/un_hint"
+            android:inputType="text"
+            style="@style/field"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/password_registration1"
+            android:hint="@string/pw_hint"
+            android:inputType="textPassword"
+            style="@style/field"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/password_registration2"
+            android:hint="@string/cpw_hint"
+            android:inputType="textPassword"
+            style="@style/field"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/email_registration"
+            android:hint="@string/email_hint"
+            android:inputType="text"
+            style="@style/field"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/phone_number_registration"
+            android:hint="@string/pn_hint"
+            android:inputType="text"
+            style="@style/field"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/register_indic"
+            style="@style/indic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/log_in_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/log_in_btn" />
+
+            <Button
+                android:id="@+id/sign_up_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/log_in_btn"
+                android:text="@string/sign_up_btn"
+                style="@style/confirm_button"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
